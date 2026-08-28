@@ -27,11 +27,13 @@
 ## Coupling discipline
 - Minimize coupling, but preserve necessary coupling. We cut coupling to
   *maintain* a boundary, not to create one.
-- Watch both failure modes:
-  - **Under-differentiation:** the [god module](./anti-patterns.md) — one part
-    everyone depends on, nothing testable in isolation.
-  - **Over-differentiation:** the [distributed monolith](./anti-patterns.md)
-    — many parts, no integration; every change touches five services.
+- Watch both failure modes — the code names of two general anti-patterns
+  ([the god part](./anti-patterns.md) and
+  [distributed fragmentation](./anti-patterns.md)):
+  - **Under-differentiation: the god module** — one part everyone depends on,
+    nothing testable in isolation.
+  - **Over-differentiation: the distributed monolith** — many parts, no
+    integration; every change touches five services.
 - Prefer few stable interfaces over many unstable ones.
 
 ## Judge the whole
@@ -47,4 +49,4 @@
 - Contracts documented; dependents notified before changes ship.
 - No silent assumptions across boundaries.
 - The [three tests](./START-HERE.md) are run and recorded: closed-loop?
-  copy-paste? whole-person?
+  handoff? part-vs-whole?

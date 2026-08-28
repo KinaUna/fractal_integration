@@ -11,8 +11,11 @@ folder that operationalize it the **Fractal Integration Guidelines (FIG)**.
 
 ## How we think
 
-We apply this to code (modules, services, APIs), to product (features,
-onboarding, users, market), and to the team and the lives the work touches.
+We apply this to any differentiated system: a piece of work, code (modules,
+services, APIs), a product (features, onboarding, users, market), a team,
+an organization — and to the lives the work touches. Any profession can
+apply it the same way; `START-HERE.md` has a recipe for writing a domain
+guide for a field like HR or accounting.
 We hold:
 
 1. **Quality is the quality of the linkage.** A system's competence is
@@ -45,31 +48,36 @@ We hold:
 
 ## Where each doc fits
 
-**Learning it**
+**The core (domain-neutral)**
 
 - **Onboarding:** read `START-HERE.md` top to bottom — that *is* the
   onboarding.
-- **Product work:** start with `product-as-integrator.md`. It's the reason
-  the product exists, in our terms.
-- **How we build code:** `in-code.md` — the principles turned into
-  practice.
 - **How it fails:** `anti-patterns.md` — the catalog of integration failures,
   and what to do instead.
 - **The human system:** `the-human-system.md` is the outermost scale. It
-  applies to how we work and to the lives our product touches.
+  applies to how we work and to the lives the work touches.
 - **A lens for diagnosing failures:** `domains-of-integration.md` maps nine
   ways the mind integrates (from Siegel's Interpersonal Neurobiology) onto the
   systems we build. When a design feels wrong but nothing is "broken," name the
   domain it's failing at.
 
+**Applying it to a domain** — the same principles turned into a field's
+practices. Code and product are the first two guides; a profession (HR,
+accounting, operations…) can add its own in the same shape:
+
+- **Product work:** start with `product-as-integrator.md`. It's the reason
+  the product exists, in our terms.
+- **How we build code:** `in-code.md` — the principles turned into
+  practice.
+
 **Using it in the work**
 
-- **Every review and retro:** the three tests — closed-loop? copy-paste?
-  whole-person? (details in `START-HERE.md`).
+- **Every review and retro:** the three tests — closed-loop? handoff?
+  part-vs-whole? (details in `START-HERE.md`).
 - **Design reviews:** use `templates/design-doc.md`. The "Seams & contracts"
   section is mandatory.
-- **PRs:** the integration checkbox in the PR template (in each product repo)
-  is not optional.
+- **PRs:** the integration checkbox in the PR template (in each product
+  repo) is not optional.
 - **Incidents:** use `templates/postmortem.md`.
 - **Retrospectives:** use `templates/retrospective.md`.
 
