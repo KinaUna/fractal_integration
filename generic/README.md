@@ -51,7 +51,7 @@ We hold:
   onboarding.
 - **Product work:** start with `product-as-integrator.md`. It's the reason
   the product exists, in our terms.
-- **How we build code:** `in-code.md` — the six principles turned into
+- **How we build code:** `in-code.md` — the principles turned into
   practice.
 - **How it fails:** `anti-patterns.md` — the catalog of integration failures,
   and what to do instead.
