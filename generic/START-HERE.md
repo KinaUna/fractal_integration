@@ -1,8 +1,8 @@
 # START HERE — Fractal Integration, in one hour
 
-> **The line to remember:** the parts are cheap; the linkage is what's rare.
-> Integration — the linking of differentiated parts — is the whole game, at
-> every scale, from a function to a life.
+> **The gist** the parts are cheap; effective linkage is rare, but fundamental to great systems.
+> Integration, the linking of differentiated parts, is essential for complex systems, at
+> every scale, from simple functions, to life and entire ecosystems.
 
 ## What "integration" means here
 
