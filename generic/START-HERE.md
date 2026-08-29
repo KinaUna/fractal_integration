@@ -61,6 +61,26 @@ row, expanded.
 
 Run these in every review and retro — and whenever a decision feels cheap.
 
+## The five faces of a healthy system — FACES
+
+Daniel Siegel, working in Interpersonal Neurobiology, names what a healthy
+*relationship* looks like with five words: **F**lexible, **A**daptive,
+**C**oherent, **E**nergizing, **S**table. We use the same shape to ask the
+same question of a system, a team, or a product:
+
+| Face       | A healthy system is…                                                        | Where it lives                                 |
+|------------|-----------------------------------------------------------------------------|------------------------------------------------|
+| **F**lexible   | parts can change without the whole breaking; degradation is graceful, not catastrophic | principle 6 (decay) + states (`domains-of-integration.md`) |
+| **A**daptive   | feedback reaches a decision and changes it                                  | principle 4 — a loop needs an owner *and* a response |
+| **C**oherent   | parts link into one story a newcomer can read and a user can narrate        | narrative + cognition (`domains-of-integration.md`) |
+| **E**nergizing | working with it is sustainable — for the team and for the user              | `the-human-system.md` — the letter that keeps us honest about people |
+| **S**table     | the whole holds under load and over time; trust survives the handoff        | capacity + transpirational (`domains-of-integration.md`) |
+
+Run FACES alongside the three tests: the tests ask where the system
+*fails*; FACES asks where it is *healthy*. The templates carry a FACES
+score, so a cycle can move one of the five faces on purpose — and a
+design can name what it trades away before it's built.
+
 ## Read it in this order (60 minutes)
 
 | # | Doc                          | Time  | What it answers          |

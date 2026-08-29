@@ -25,6 +25,12 @@ Performance, reliability, security, UX, cost — for the system, not the part.
 ## Local-optimization check
 Which part is this optimizing? What does the system pay for it?
 
+## FACES check
+Which of the five faces does this design strengthen — **f**lexible,
+**a**daptive, **c**oherent, **e**nergizing, **s**table — and which does it
+consume? Name at least one trade; a design that claims no cost is a design
+that hasn't priced it.
+
 ## Rollout & rollback
 Flags, canary, rollback criteria.
 

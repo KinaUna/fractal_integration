@@ -73,7 +73,8 @@ accounting, operations…) can add its own in the same shape:
 **Using it in the work**
 
 - **Every review and retro:** the three tests — closed-loop? handoff?
-  part-vs-whole? (details in `START-HERE.md`).
+  part-vs-whole? — plus a FACES score, the five faces of a healthy system
+  (details in `START-HERE.md`).
 - **Design reviews:** use `templates/design-doc.md`. The "Seams & contracts"
   section is mandatory.
 - **PRs:** the integration checkbox in the PR template (in each product
