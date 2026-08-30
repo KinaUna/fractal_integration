@@ -23,6 +23,20 @@ are its first two applications; guides for other professions — HR, accounting,
 and so on — can be added on the same pattern (see
 [Applying it to your domain](#applying-it-to-your-domain)).
 
+## The same idea, in everyday life
+
+Before the work scales, the idea in things you can touch:
+
+| Everyday    | Parts (the cheap)         | Linkage (the rare)                              | Emergent property            | The smell                              |
+|-------------|---------------------------|--------------------------------------------------|------------------------------|----------------------------------------|
+| A meal      | ingredients               | the cooking — heat, order, balance               | a dish; satisfaction         | a buffet where nothing goes together   |
+| A bicycle   | frame, gears, chain       | tension, alignment, the drivetrain working together | speed — crossing a town   | a shop full of parts that get you nowhere |
+| A relay race| runners                   | the baton handoff — timing, trust, rehearsal     | a team time no runner has alone | dropped batons — the seam fails    |
+
+The next table is the same shape, at work scales. Plain-language version,
+with the cooking example written out in full:
+[`everyday-life.md`](everyday-life.md).
+
 ## The same idea, at every scale
 
 | Scale    | Parts (the cheap)                    | Linkage (the rare)                        | Emergent property                    | Local-optimization smell |
@@ -85,6 +99,7 @@ design can name what it trades away before it's built.
 
 | # | Doc                          | Time  | What it answers          |
 |---|------------------------------|-------|--------------------------|
+| − | `everyday-life.md`           | 10 min| the same idea in plain language — start here if jargon isn't your language |
 | 0 | `START-HERE.md` (this page)  | 5 min | the one argument         |
 | 1 | `README.md`                  | 5 min | the six principles, in full |
 | 2 | `product-as-integrator.md`   | 10 min| application: what the product is *for* |
@@ -105,6 +120,8 @@ hour — and to `anti-patterns.md` the next time something goes wrong.
 
 **Enter where you stand:**
 
+- Not a technical reader → `everyday-life.md` — the same idea in
+  plain language, no jargon.
 - New to the team → read top to bottom; that *is* the onboarding.
 - About to design something → the domain guide for your field (code:
   `in-code.md`, product: `product-as-integrator.md`), then `templates/design-doc.md`.

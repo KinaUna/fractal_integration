@@ -52,6 +52,8 @@ We hold:
 
 - **Onboarding:** read `START-HERE.md` top to bottom — that *is* the
   onboarding.
+- **In plain language:** `everyday-life.md` — the same idea told
+  with everyday examples, for readers who don't live in the codebase.
 - **How it fails:** `anti-patterns.md` — the catalog of integration failures,
   and what to do instead.
 - **The human system:** `the-human-system.md` is the outermost scale. It
