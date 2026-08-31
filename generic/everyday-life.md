@@ -88,28 +88,39 @@ Now the same table, at work scales:
 
 The everyday failure modes map straight across:
 
-- **The dropped baton** — every part passes its own check, but the handoff
-  fails. At work: "my part is done," and the thing that needs to happen
-  next has no owner.
-- **The bag of wet vegetables** — features with no journey. Each one works
-  alone; together they don't make sense.
-- **The solo instrument** — one person or one process everything depends
-  on. Nothing can be tested, changed, or learned without them.
-- **The unpracticed handoff** — the linkage lives in someone's head. When
-  they leave, the linkage leaves with them.
+- **The dropped baton** — you do your half, hand it to a friend, and the
+  next step just stops. Nobody's got it now. At work: "my part is done,"
+  and the thing that needs to happen next has no owner.
+- **The bag of wet vegetables** — a group chat full of fun ideas, none of
+  which ever get cooked into anything. Each one's fine on its own;
+  together they don't go anywhere. At work: features with no journey —
+  each works alone, together they don't make sense.
+- **The solo instrument** — the one friend who plans every get-together.
+  If they're busy, nothing happens. That's not a group, that's one person
+  carrying everyone. At work: one person or process everything depends on.
+- **The unpracticed handoff** — the group's whole "how we do things" lives
+  in one person's head. When they move away, the group forgets how to be
+  a group. At work: the linkage lives in someone's head; when they leave,
+  it leaves with them.
 
 ## Three questions to ask
 
-Any piece of work, any team, any product — three questions, two minutes:
+Any group of friends, any neighborhood thing, any hangout — three
+questions, two minutes:
 
-1. **Closed loop?** Can someone take a problem in and get an answer out,
-   without leaving the room? Every point where the work has to *leave* —
-   be emailed, forwarded, "circled back on" — is a seam that isn't
-   integrated yet.
-2. **Handoffs?** Where does the work get passed by hand? Each manual
-   transfer is a place where value leaks.
-3. **Part vs. whole?** Are we making one part look great — an output, a
-   metric, a quarter — at the cost of the whole it stands on?
+1. **Closed loop?** Does it actually happen? "Let's get together
+   sometime" isn't a plan — it's a seam that isn't integrated yet.
+   Every time the thing has to be forwarded to the group chat, bounced
+   around, or "circled back on" is a place it can slip away.
+2. **Handoffs?** Where does it get passed by hand — the planning, the
+   remembering, telling the others? Each time it's passed ("you tell
+   them") is a place it can drop. And if it all rests on one person —
+   the one who always plans, the one who remembers everyone's birthday —
+   that's not a group, that's a solo act with an audience.
+3. **Part vs. whole?** Are we making one moment look great at the cost
+   of the whole it stands on? The great night out where nobody talks to
+   each other after. The friend who's always the star of the party but
+   nobody calls. One part shining, the whole quietly fraying.
 
 ## If you want to go deeper
 
