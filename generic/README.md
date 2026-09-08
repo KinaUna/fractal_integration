@@ -1,4 +1,4 @@
-# Fractal Integration — how I think about it
+# Fractal Integration, how I think about it
 
 It has come to my attention that most of what goes wrong in systems, be it code, products, teams, my own life, goes wrong at the seams, not inside the parts. So let me try to write down what I mean by that.
 
