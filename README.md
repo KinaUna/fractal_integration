@@ -24,3 +24,46 @@ or out.
   this in without your copy silently drifting from the source.
 
 ## Repository structure
+```
+fractal_integration/
+├── generic/ # The domain-neutral core: FIG as it applies everywhere
+│ ├── README.md # Core concept and principles
+│ ├── START-HERE.md # Orientation — read this first
+│ ├── domains-of-integration.md # The 21 kinds of linkage to look for
+│ ├── anti-patterns.md # Named failure modes and their fixes
+│ ├── the-human-system.md
+│ ├── in-code.md # FIG applied to software
+│ ├── in-product.md # FIG applied to product
+│ ├── product-as-integrator.md
+│ ├── everyday-life.md
+│ ├── adopting-fig.md # How to fork/differentiate this for your own use
+│ ├── further-reading.md
+│ ├── examples/
+│ └── templates/ # Design review, PR, postmortem, retro templates
+└── <domain>/ # Future: FIG differentiated for a specific field, profession, or situation (not yet added)
+```
+
+## How this repo grows
+
+`generic/` is the reference version — differentiated as little as possible,
+so it stays applicable anywhere. As specific domains need their own
+adaptation (a profession, a team function, a kind of project), they get their
+own top-level folder here, each one taking the generic core and
+differentiating it further for that context — the same differentiate-and-link
+pattern the guidelines themselves describe, applied recursively to the
+guidelines. `generic/in-code.md` and `generic/in-product.md` are the existing
+examples of this at the software/product layer; new domain folders would sit
+at the same level as `generic/` and follow the same shape.
+
+## For AI agents
+
+These guidelines are meant to be read and applied directly by an AI agent,
+not just a person — that's part of why this lives as a plain, structured
+repo rather than a slide deck. See the adoption prompt in
+[`generic/adopting-fig.md`](generic/adopting-fig.md) for a working example of
+handing this repo to an agent and asking it to write a domain-specific guide.
+
+## Status
+
+This is a living, evolving document set — expect it to be revised as the
+ideas get tested against real use.
