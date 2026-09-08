@@ -71,3 +71,6 @@ handing this repo to an agent and asking it to write a domain-specific guide.
 
 This is a living, evolving document set — expect it to be revised as the
 ideas get tested against real use.
+
+Licensed under [CC BY 4.0](LICENSE) — you're free to copy, adapt, and reuse this,
+including commercially, as long as you credit the source.
