@@ -4,6 +4,60 @@
 > Integration, the linking of differentiated parts, is essential for complex systems, at
 > every scale, from simple functions, to life and entire ecosystems.
 
+## Why this is worth an hour
+
+This isn't a new idea. Systems theory, cybernetics, the study of
+institutions, even the leading theory of consciousness all converge on the
+same claim: differentiated parts, linked well, produce something no part
+has alone — and most failure is a failure of the linkage, not the parts.
+What these guidelines add isn't a new truth. It's a shared, practical
+vocabulary for a pattern you already live inside every day, kept in one
+place, kept alive, and easy to bring into whatever you're building.
+
+Once you see it, you see it at every size:
+
+- **The smallest scale.** A relay team drops the baton — four excellent
+  runners lose to a slower team that practiced the handoff. A dish fails
+  not because an ingredient was bad, but because nothing was given its
+  moment.
+- **Your work.** CI is green, the deploy ships, and production still
+  breaks. The parts were fine; the seam between them was never tested.
+- **Your life.** Burnout isn't one broken part — not enough sleep, too
+  much work. It's the coordination between sleep, work, rest, and meaning
+  breaking down. The diagnosis for a struggling system and a struggling
+  person is the same one: the parts are fine, the linkage is failing.
+- **The biggest scale.** The 2008 financial crisis was mortgage risk
+  deliberately sliced and resold to sever the link between who originated a
+  loan and who bore its consequence — a bilateral-integration failure with
+  a trillion-dollar price tag. Climate change is a planet-sized feedback
+  loop with no owner: the cost of carbon is differentiated from whoever
+  emits it, so nothing corrects. Political polarization and the erosion of
+  institutional trust read as a narrative and interpersonal integration
+  failure at the scale of a whole society — different groups with no
+  shared story and no functioning feedback between them.
+
+None of these are "like" an integration failure, as a figure of speech.
+They *are* one — the same failure your team has, wearing a bigger coat.
+That's the actual claim behind "fractal": not that the world is mystically
+made of fractals, but that this one failure mode — parts without adequate
+linkage — repeats, recognizably, at every scale we've looked. Learning to
+see it in a standup makes it visible in a headline; the reverse is also
+true, and either direction is a reason to keep reading.
+
+**Use this like a travel guide, not a lexicon.** These pages aren't a
+canon to memorize or a tutorial with a right answer at the end. They're a
+way of noticing something that's already there, so you can name it and act
+on it in whatever terrain you're actually in — a PR, a diagnosis, a
+household, a policy. Take what's useful and leave the rest; the map isn't
+the point, finding your way is.
+
+That's also why this lives in a public, evolving repository instead of a
+document you'd print once: the guidelines are meant to keep fractally
+integrating — with your domain, your team's language, and other ideas as
+you find them — rather than staying fixed. See
+[`adopting-fig.md`](adopting-fig.md) for how to bring this into your own
+project and keep it linked to this source as both evolve.
+
 ## What "integration" means here
 
 A system is differentiated parts whose integrated functioning produces
@@ -111,6 +165,7 @@ design can name what it trades away before it's built.
 | 6 | `domains-of-integration.md`  | 5 min | the lenses of linkage, in three sets |
 | 7 | `anti-patterns.md`           | 5 min | how integration fails    |
 | 8 | `templates/` (skim)          | 5 min | the tools for the rituals |
+| 9 | `adopting-fig.md`            | 5 min | bringing this into your own project, and keeping it linked to source |
 
 Steps 2–4 are the first applications of the pattern to specific domains.
 Other professions can slot their own guide in the same position — same
@@ -151,6 +206,11 @@ accounting, operations, a craft — and fill in one row of the table above:
 Then write a guide for the domain, in the shape of `in-code.md`: the six
 principles turned into its practices. The row becomes the guide's table of
 contents; the rest is filling it in.
+
+Doing this with an AI agent, or pulling these guidelines into a project
+that isn't this repo? See [`adopting-fig.md`](adopting-fig.md) — it covers
+how to differentiate a local copy without losing the link back to this
+source as it keeps evolving.
 
 ## Do this first (20 minutes, so it sticks)
 
