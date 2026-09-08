@@ -64,7 +64,10 @@ We hold:
   ways the mind integrates (from Siegel's Interpersonal Neurobiology) onto the
   systems we build. When a design feels wrong but nothing is "broken," name the
   domain it's failing at.
-
+- **Going deeper (optional):** `further-reading.md` — the traditions this
+  repo draws on (systems theory, cybernetics, institutional economics,
+  modularity, Siegel's IPNB, IIT, Conway's Law), one solid source each.
+  
 **Applying it to a domain** — the same principles turned into a field's
 practices. Code and product are the first two guides; a profession (HR,
 accounting, operations…) can add its own in the same shape:

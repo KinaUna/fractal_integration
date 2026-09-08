@@ -56,7 +56,10 @@ document you'd print once: the guidelines are meant to keep fractally
 integrating — with your domain, your team's language, and other ideas as
 you find them — rather than staying fixed. See
 [`adopting-fig.md`](adopting-fig.md) for how to bring this into your own
-project and keep it linked to this source as both evolve.
+project and keep it linked to this source as both evolve, and
+[`further-reading.md`](further-reading.md) if you want to see where "not a
+new idea" leads — systems theory, cybernetics, and the rest, one solid
+source each.
 
 ## What "integration" means here
 

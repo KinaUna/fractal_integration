@@ -12,6 +12,9 @@ consciousness (see Siegel, *Mindsight*). That is, in other words, the whole
 philosophy of this repo: *differentiated parts whose integrated functioning
 produces properties no part has on its own.*
 
+(Want the source directly, rather than our re-mapping of it? See the
+Siegel entry in [`further-reading.md`](further-reading.md).)
+
 This doc makes the parallel explicit. Each domain that integrates a mind also
 integrates a system, a team, and a product. Use it as a diagnostic: when a
 system feels like a "bag of features" or a "god module," name the domain that
