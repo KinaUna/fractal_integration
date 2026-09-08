@@ -63,6 +63,10 @@ repo rather than a slide deck. See the adoption prompt in
 [`generic/adopting-fig.md`](generic/adopting-fig.md) for a working example of
 handing this repo to an agent and asking it to write a domain-specific guide.
 
+## Examples of projects using Fractal Integration
+- [Kumunita](https://github.com/KinaUna/kumunita)
+
+
 ## Status
 
 This is a living, evolving document set — expect it to be revised as the
