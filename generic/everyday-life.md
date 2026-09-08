@@ -122,6 +122,14 @@ questions, two minutes:
    each other after. The friend who's always the star of the party but
    nobody calls. One part shining, the whole quietly fraying.
 
+## More examples
+
+The three above are a fixed set, meant to be read start to finish. If none
+of them quite landed — or you want one that matches your own background —
+[`examples/`](examples/README.md) is a shelf of more, one per doc
+(a calendar, digesting food, a meeting, a household, a garden, and more),
+so you can pick whichever already lives in your head.
+
 ## If you want to go deeper
 
 [`START-HERE.md`](START-HERE.md) is the same argument in the repo's

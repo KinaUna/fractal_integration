@@ -35,7 +35,9 @@ Before the work scales, the idea in things you can touch:
 
 The next table is the same shape, at work scales. Plain-language version,
 with the cooking example written out in full:
-[`everyday-life.md`](everyday-life.md).
+[`everyday-life.md`](everyday-life.md). Want more examples to pick from —
+matched to your own background rather than ours? See
+[`examples/`](examples/README.md).
 
 ## The same idea, at every scale
 
@@ -121,7 +123,8 @@ hour — and to `anti-patterns.md` the next time something goes wrong.
 **Enter where you stand:**
 
 - Not a technical reader → `everyday-life.md` — the same idea in
-  plain language, no jargon.
+  plain language, no jargon. If none of its examples fit you, `examples/`
+  has more to pick from.
 - New to the team → read top to bottom; that *is* the onboarding.
 - About to design something → the domain guide for your field (code:
   `in-code.md`, product: `product-as-integrator.md`), then `templates/design-doc.md`.

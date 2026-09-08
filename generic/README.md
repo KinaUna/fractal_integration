@@ -54,6 +54,8 @@ We hold:
   onboarding.
 - **In plain language:** `everyday-life.md` — the same idea told
   with everyday examples, for readers who don't live in the codebase.
+  For more to choose from, matched to different backgrounds, see
+  `examples/`.
 - **How it fails:** `anti-patterns.md` — the catalog of integration failures,
   and what to do instead.
 - **The human system:** `the-human-system.md` is the outermost scale. It
