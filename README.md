@@ -24,24 +24,23 @@ or out.
   this in without your copy silently drifting from the source.
 
 ## Repository structure
-```
-fractal_integration/
-├── generic/ # The domain-neutral core: FIG as it applies everywhere
-│ ├── README.md # Core concept and principles
-│ ├── START-HERE.md # Orientation — read this first
-│ ├── domains-of-integration.md # The 21 kinds of linkage to look for
-│ ├── anti-patterns.md # Named failure modes and their fixes
-│ ├── the-human-system.md
-│ ├── in-code.md # FIG applied to software
-│ ├── in-product.md # FIG applied to product
-│ ├── product-as-integrator.md
-│ ├── everyday-life.md
-│ ├── adopting-fig.md # How to fork/differentiate this for your own use
-│ ├── further-reading.md
-│ ├── examples/
-│ └── templates/ # Design review, PR, postmortem, retro templates
-└── <domain>/ # Future: FIG differentiated for a specific field, profession, or situation (not yet added)
-```
+
+- `fractal_integration/`
+  - [`generic/`](generic/) — the domain-neutral core: FIG as it applies everywhere
+    - [`README.md`](generic/README.md) — core concept and principles
+    - [`START-HERE.md`](generic/START-HERE.md) — orientation, read this first
+    - [`domains-of-integration.md`](generic/domains-of-integration.md) — the 21 kinds of linkage to look for
+    - [`anti-patterns.md`](generic/anti-patterns.md) — named failure modes and their fixes
+    - [`the-human-system.md`](generic/the-human-system.md)
+    - [`in-code.md`](generic/in-code.md) — FIG applied to software
+    - [`in-product.md`](generic/in-product.md) — FIG applied to product
+    - [`product-as-integrator.md`](generic/product-as-integrator.md)
+    - [`everyday-life.md`](generic/everyday-life.md)
+    - [`adopting-fig.md`](generic/adopting-fig.md) — how to fork/differentiate this for your own use
+    - [`further-reading.md`](generic/further-reading.md)
+    - [`examples/`](generic/examples/README.md)
+    - [`templates/`](generic/templates/design-doc.md) — design review, postmortem, retro templates
+  - `<domain>/` — future: FIG differentiated for a specific field, profession, or situation (not yet added)
 
 ## How this repo grows
 
