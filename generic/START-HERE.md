@@ -122,7 +122,7 @@ below is one row, expanded.
 5. Emergent properties can't be delegated — judge the whole, not the part.
 6. Integration decays, review, reflection, and maintenance close the loop.
 
-(Full version, in prose: `README.md`.)
+(Full version, in prose: [the README](../README.md).)
 
 ## The three tests
 
@@ -147,11 +147,11 @@ the same question of a system, a team, or a product:
 
 | Face       | A healthy system is…                                                        | Where it lives                                 |
 |------------|-----------------------------------------------------------------------------|------------------------------------------------|
-| **F**lexible   | parts can change without the whole breaking; degradation is graceful, not catastrophic | principle 6 (decay) + states (`domains-of-integration.md`) |
+| **F**lexible   | parts can change without the whole breaking; degradation is graceful, not catastrophic | principle 6 (decay) + states ([`domains-of-integration.md`](domains-of-integration.md)) |
 | **A**daptive   | feedback reaches a decision and changes it                                  | principle 4 — a loop needs an owner *and* a response |
-| **C**oherent   | parts link into one story a newcomer can read and a user can narrate        | narrative + cognition (`domains-of-integration.md`) |
-| **E**nergizing | working with it is sustainable, for the team and for the user              | `the-human-system.md` — the letter that keeps me honest about people |
-| **S**table     | the whole holds under load and over time; trust survives the handoff        | capacity + transpirational (`domains-of-integration.md`) |
+| **C**oherent   | parts link into one story a newcomer can read and a user can narrate        | narrative + cognition ([`domains-of-integration.md`](domains-of-integration.md)) |
+| **E**nergizing | working with it is sustainable, for the team and for the user              | [`the-human-system.md`](the-human-system.md) — the letter that keeps me honest about people |
+| **S**table     | the whole holds under load and over time; trust survives the handoff        | capacity + transpirational ([`domains-of-integration.md`](domains-of-integration.md)) |
 
 I try to run FACES alongside the three tests: the tests ask where the
 system *fails*; FACES asks where it is *healthy*. The templates carry a
@@ -162,17 +162,17 @@ design can name what it trades away before it's built.
 
 | # | Doc                          | Time  | What it answers          |
 |---|------------------------------|-------|--------------------------|
-| − | `everyday-life.md`           | 10 min| the same idea in plain language, start here if jargon isn't your language |
+| − | [`everyday-life.md`](everyday-life.md)           | 10 min| the same idea in plain language, start here if jargon isn't your language |
 | 0 | `START-HERE.md` (this page)  | 5 min | the one argument         |
-| 1 | `README.md`                  | 5 min | the six things I hold, in full |
-| 2 | `product-as-integrator.md`   | 10 min| application: what the product is *for* |
-| 3 | `in-code.md`                 | 10 min| application: how I build code        |
-| 4 | `in-product.md`              | 5 min | application: how I run product & team |
-| 5 | `the-human-system.md`        | 10 min| the outermost scale: the person |
-| 6 | `domains-of-integration.md`  | 5 min | the lenses of linkage, in three sets |
-| 7 | `anti-patterns.md`           | 5 min | how integration fails    |
+| 1 | [the README](../README.md)                  | 5 min | the six things I hold, in full |
+| 2 | [`product-as-integrator.md`](product-as-integrator.md)   | 10 min| application: what the product is *for* |
+| 3 | [`in-code.md`](in-code.md)                 | 10 min| application: how I build code        |
+| 4 | [`in-product.md`](in-product.md)              | 5 min | application: how I run product & team |
+| 5 | [`the-human-system.md`](the-human-system.md)        | 10 min| the outermost scale: the person |
+| 6 | [`domains-of-integration.md`](domains-of-integration.md)  | 5 min | the lenses of linkage, in three sets |
+| 7 | [`anti-patterns.md`](anti-patterns.md)           | 5 min | how integration fails    |
 | 8 | `templates/` (skim)          | 5 min | the tools for the rituals |
-| 9 | `adopting-fig.md`            | 5 min | bringing this into your own project, and keeping it linked to source |
+| 9 | [`adopting-fig.md`](adopting-fig.md)            | 5 min | bringing this into your own project, and keeping it linked to source |
 
 Steps 2–4 are the first applications of the pattern to specific domains.
 Other professions can slot their own guide in the same position, same
@@ -180,18 +180,18 @@ shape, same length.
 
 **Short on time?** Read the six things above, run the three tests on
 something you touched today, and stop. Come back to the full pass when you
-have the hour — and to `anti-patterns.md` the next time something goes
-wrong.
+have the hour — and to [`anti-patterns.md`](anti-patterns.md) the next time
+something goes wrong.
 
 **Enter where you stand:**
 
-- Not a technical reader → `everyday-life.md` — the same idea in
-  plain language, no jargon. If none of its examples fit you, `examples/`
-  has more to pick from.
+- Not a technical reader → [`everyday-life.md`](everyday-life.md) — the same idea in
+  plain language, no jargon. If none of its examples fit you,
+  [`examples/`](examples/README.md) has more to pick from.
 - New to the project → read top to bottom; that *is* the onboarding.
 - About to design something → the domain guide for your field (code:
-  `in-code.md`, product: `product-as-integrator.md`), then `templates/design-doc.md`.
-- Running a team or reviewing work → the six things above, then `templates/retrospective.md`.
+  [`in-code.md`](in-code.md), product: [`product-as-integrator.md`](product-as-integrator.md)), then [`templates/design-doc.md`](templates/design-doc.md).
+- Running a team or reviewing work → the six things above, then [`templates/retrospective.md`](templates/retrospective.md).
 - In another profession → start with the core (steps 0–1, 5–8), then find
   the guide for your domain — or write one (below).
 
@@ -211,7 +211,7 @@ accounting, operations, a craft — and fill in one row of the table above:
 - **Local-optimization smell** — what optimizing a part sounds like when
   the whole degrades.
 
-Then write a guide for the domain, in the shape of `in-code.md`: the six
+Then write a guide for the domain, in the shape of [`in-code.md`](in-code.md): the six
 things turned into its practices. The row becomes the guide's table of
 contents; the rest is filling it in.
 
@@ -231,13 +231,13 @@ project, a piece of work:
 4. Find **one un-integrated seam.** That's your first integration task.
 
 You've now run the philosophy once, on a real system. Write it up, even
-five lines in `templates/design-doc.md` is enough. That's the loop closing.
+five lines in [`templates/design-doc.md`](templates/design-doc.md) is enough. That's the loop closing.
 
 ## Where the tools live
 
-- Designing a change → `templates/design-doc.md`
-- Something broke → `templates/postmortem.md`
-- End of a cycle → `templates/retrospective.md`
+- Designing a change → [`templates/design-doc.md`](templates/design-doc.md)
+- Something broke → [`templates/postmortem.md`](templates/postmortem.md)
+- End of a cycle → [`templates/retrospective.md`](templates/retrospective.md)
 
 ## The line I want to leave you with
 

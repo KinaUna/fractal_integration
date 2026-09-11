@@ -28,17 +28,17 @@ Entropy is inevitable, so integration decays if I don't maintain it. Contracts d
 
 **The core (domain-neutral)**
 
-- **Onboarding:** read `START-HERE.md` top to bottom — that *is* the
+- **Onboarding:** read [`START-HERE.md`](START-HERE.md) top to bottom — that *is* the
   onboarding.
-- **In plain language:** `everyday-life.md` — the same ideas told
+- **In plain language:** [`everyday-life.md`](everyday-life.md) — the same ideas told
   with everyday examples, for readers who don't live in the codebase.
   For more to choose from, matched to different backgrounds, see
-  `examples/`.
-- **How it fails:** `anti-patterns.md` — my running catalog of integration
+  [`examples/`](examples/README.md).
+- **How it fails:** [`anti-patterns.md`](anti-patterns.md) — my running catalog of integration
   failures, and what I try to do instead.
-- **The human system:** `the-human-system.md` is the outermost scale I've
+- **The human system:** [`the-human-system.md`](the-human-system.md) is the outermost scale I've
   thought about. It applies to how I work and to the lives that work touches.
-- **A lens for diagnosing failures:** `domains-of-integration.md` maps nine
+- **A lens for diagnosing failures:** [`domains-of-integration.md`](domains-of-integration.md) maps nine
   ways the mind integrates (from Siegel's Interpersonal Neurobiology) onto
   the systems I build. When something feels wrong but nothing is technically
   "broken," this is how I try to name what's failing.
@@ -47,22 +47,22 @@ Entropy is inevitable, so integration decays if I don't maintain it. Contracts d
 practices. Code and product are the two I've actually written up; a
 profession (HR, accounting, operations…) could add its own in the same shape:
 
-- **Product work:** start with `product-as-integrator.md`. It's where I try
+- **Product work:** start with [`product-as-integrator.md`](product-as-integrator.md). It's where I try
   to justify why the product exists at all, in these terms.
-- **How I build code:** `in-code.md` — the principles turned into practice.
+- **How I build code:** [`in-code.md`](in-code.md) — the principles turned into practice.
 
 **Using it in the work**
 
 - **Every review and retro:** three questions I ask myself — is the loop
   closed, is the handoff clean, am I looking at the part or the whole —
   plus a FACES score, the five faces of a healthy system (details in
-  `START-HERE.md`).
-- **Design reviews:** I use `templates/design-doc.md`. The "Seams &
+  [`START-HERE.md`](START-HERE.md)).
+- **Design reviews:** I use [`templates/design-doc.md`](templates/design-doc.md). The "Seams &
   contracts" section isn't optional for me.
 - **PRs:** the integration checkbox in the PR template (in each product
   repo) isn't optional either.
-- **Incidents:** `templates/postmortem.md`.
-- **Retrospectives:** `templates/retrospective.md`.
+- **Incidents:** [`templates/postmortem.md`](templates/postmortem.md).
+- **Retrospectives:** [`templates/retrospective.md`](templates/retrospective.md).
 
 This document is itself a system I haven't finished integrating. I try to
 come back to it now and then and ask what my actual practice has shown to

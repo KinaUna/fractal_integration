@@ -45,4 +45,4 @@ applying one rule and calling it attention.
 ## Try it
 
 Look at what you're treating identically that actually isn't. That gap is
-usually where the "differentiation is deliberate" principle got skipped.
+usually where the "[differentiation is deliberate](../START-HERE.md)" principle got skipped.

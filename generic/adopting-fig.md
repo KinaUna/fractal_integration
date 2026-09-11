@@ -21,7 +21,7 @@ no longer matches the one anyone else is reading.
 There are two easy ways to get this wrong, and one steady way to get it
 right.
 
-**Wrong: copy-paste and forget.** You paste `START-HERE.md` into your
+**Wrong: copy-paste and forget.** You paste [`START-HERE.md`](./START-HERE.md) into your
 wiki once. It's useful for a month, then this source repo moves on —
 a principle gets sharpened, a new domain guide ships, an anti-pattern gets
 renamed — and your copy quietly becomes a fork nobody meant to create.
@@ -32,20 +32,20 @@ applied to the guidelines about integration decaying.
 **Also wrong: blind overwrite.** You script a pull that replaces your
 local docs with source verbatim on every sync. This destroys the thing you
 actually wanted — the domain-specific guide you wrote for *your* field,
-which this repo explicitly expects you to add (see "Applying it to your
-domain" in `START-HERE.md`) and which the source repo has no way to know
+which this repo explicitly expects you to add (see ["Applying it to your
+domain"](./START-HERE.md#applying-it-to-your-domain) in [`START-HERE.md`](./START-HERE.md)) and which the source repo has no way to know
 about.
 
-**Right: a designed seam.** Treat your local copy the way `in-code.md`
+**Right: a designed seam.** Treat your local copy the way [`in-code.md`](./in-code.md)
 tells you to treat any boundary — a contract, not an accident:
 
 1. **Keep the core, differentiate around it.** Pull the domain-neutral
-   core (`README.md`, `START-HERE.md`, `anti-patterns.md`,
-   `domains-of-integration.md`, `the-human-system.md`, `everyday-life.md`,
-   `templates/`) close to verbatim. Write your own domain guide — HR,
+   core ([`README.md`](./README.md), [`START-HERE.md`](./START-HERE.md), [`anti-patterns.md`](./anti-patterns.md),
+   [`domains-of-integration.md`](./domains-of-integration.md), [`the-human-system.md`](./the-human-system.md), [`everyday-life.md`](./everyday-life.md),
+   [`templates/`](templates/)) close to verbatim. Write your own domain guide — HR,
    accounting, your specific codebase's conventions, whatever your field
-   is — as a new file alongside them, in the shape of `in-code.md` or
-   `product-as-integrator.md`. That split is the seam: the core is what
+   is — as a new file alongside them, in the shape of [`in-code.md`](./in-code.md) or
+   [`product-as-integrator.md`](./product-as-integrator.md). That split is the seam: the core is what
    you sync, the domain guide is what you own.
 2. **Record what you pulled and when.** At the top of your local copy
    (a comment, a short `SOURCE.md`, or a line in your README), note the
@@ -58,7 +58,7 @@ tells you to treat any boundary — a contract, not an accident:
    trimmed the templates section, we use Linear's own retro doc -->`).
    That turns an overwrite risk into a diff you can read at a glance.
 4. **Re-sync on a cadence, not never.** This repo's own docs are reviewed
-   quarterly (see the closing line of `README.md`). Put your adoption on
+   quarterly (see the closing line of [`README.md`](./README.md)). Put your adoption on
    the same rhythm: once a quarter, diff your local core docs against this
    source, pull in what changed, and re-check your deviations still make
    sense. A sync loop with no cadence is [`reflection without
@@ -96,4 +96,4 @@ visible thing — not an assumption.
 
 That's the whole pattern: differentiate deliberately, link back
 explicitly, and revisit on a schedule. It's principles 1, 2, and 6 of
-`README.md`, pointed at the guidelines themselves.
+[`README.md`](./README.md), pointed at the guidelines themselves.

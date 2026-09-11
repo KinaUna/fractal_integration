@@ -53,7 +53,7 @@ design, not perks.
 
 ## The product lives inside the user's life
 
-`product-as-integrator.md` says the product's outbound integration flows
+[`product-as-integrator.md`](product-as-integrator.md) says the product's outbound integration flows
 into the user's **attention, time, energy, relationships, and well-being** —
 a *living life*, not just a next action. That raises the standard:
 

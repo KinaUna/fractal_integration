@@ -45,4 +45,4 @@ that let us link parts with controlled risk. The rollout and rollback plan
 is part of the design, not an afterthought.
 
 The rituals that keep this whole doc alive — design reviews, postmortems,
-retrospectives — live in `templates/`.
+retrospectives — live in [`templates/`](templates/).

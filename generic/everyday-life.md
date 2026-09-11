@@ -133,6 +133,6 @@ so you can pick whichever already lives in your head.
 ## If you want to go deeper
 
 [`START-HERE.md`](START-HERE.md) is the same argument in the repo's
-working vocabulary, in about an hour. [`README.md`](README.md) has the
+working vocabulary, in about an hour. [The README](../README.md) has the
 six principles in full. The everyday examples above are the same rows as
 the work scales — that's the whole trick.

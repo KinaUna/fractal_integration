@@ -45,5 +45,6 @@ gets its own moment, so nothing in it ever quite gets done.
 ## Try it
 
 Look at tomorrow. Is there a gap that's actually protected, or is every
-"free" slot really just "not yet booked"? That's the three tests, run on
+"free" slot really just "not yet booked"? That's the
+[three tests](../START-HERE.md#the-three-tests), run on
 your own week: closed-loop, handoff, part-vs-whole.

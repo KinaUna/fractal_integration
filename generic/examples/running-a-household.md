@@ -37,12 +37,12 @@ do it" aren't the same as an actual handoff.
 everything, because it was easier for them to just do it than to divide
 it and trust the division. It looks efficient — one person, one point of
 contact — right up until they're exhausted or unavailable, and it turns
-out nothing was actually shared, it was just centralized. That's the "god
-part" failure: nothing about the household can run, be tested, or change
+out nothing was actually shared, it was just centralized. That's the
+"[god part](../anti-patterns.md)" failure: nothing about the household can run, be tested, or change
 independently of that one person.
 
 ## Try it
 
 Pick one recurring task nobody explicitly owns. Say out loud who's
-handling it going forward. That's principle 2 in one sentence: the
+handling it going forward. That's [principle 2](../START-HERE.md) in one sentence: the
 differentiation has to be deliberate, or it isn't real.

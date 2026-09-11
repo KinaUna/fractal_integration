@@ -41,11 +41,11 @@ output, but nothing carried it forward.
 and everyone else was an audience. Attendance isn't the same as
 contribution — if the room's different expertise never actually got
 pulled in, you didn't need a room, you needed that one person's opinion
-sent by email. This is the "god part" failure wearing a conference-room
+sent by email. This is the ["god part"](../anti-patterns.md) failure wearing a conference-room
 badge.
 
 ## Try it
 
-After your next meeting, run the closed-loop test: did the decision leave
+After your next meeting, run the [closed-loop test](../START-HERE.md#the-three-tests): did the decision leave
 the room attached to an owner and a next step, or is it still floating,
 waiting to be "circled back on"?

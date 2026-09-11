@@ -7,7 +7,7 @@
 - **Public surface is permanent integration cost.** Every public thing we
   add is a cost paid by every other part, forever. Add with care.
 - Record boundary decisions in ADRs (in the owning repo, or in this repo's
-  `templates/` for cross-cutting ones). A seam chosen silently will be
+  [`templates/`](templates/) for cross-cutting ones). A seam chosen silently will be
   re-litigated by whoever hits it next.
 
 ## Seams are where we test

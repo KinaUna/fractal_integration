@@ -1,12 +1,12 @@
 # Further Reading — The Traditions Behind Fractal Integration
 
-> Optional. Nothing here is required to use these guidelines — `START-HERE.md`
+> Optional. Nothing here is required to use these guidelines — [`START-HERE.md`](START-HERE.md)
 > is still the whole onboarding in an hour. This is for when "why this
-> matters" (in `START-HERE.md`) makes you want to go check the source, or
+> matters" (in [`START-HERE.md`](START-HERE.md)) makes you want to go check the source, or
 > when you want to hand a skeptical colleague something with more weight
 > behind it than a repo of ours.
 
-As `START-HERE.md` says up front: none of this is new. It's a shared,
+As [`START-HERE.md`](START-HERE.md) says up front: none of this is new. It's a shared,
 practical vocabulary for a pattern that several serious, independent
 traditions have converged on from different directions — biology,
 engineering, economics, neuroscience. Below is one solid entry point into
@@ -64,7 +64,7 @@ Elinor Ostrom's lifelong study of how real communities manage shared
 resources (fisheries, irrigation systems, forests) without either
 top-down control or collapse is the clearest large-scale evidence for
 principle 6 (integration decays without maintenance) and for the
-authority and access domains in `domains-of-integration.md`: durable
+authority and access domains in [`domains-of-integration.md`](domains-of-integration.md): durable
 systems are the ones with living rules for monitoring, feedback, and
 graduated response — not the ones with the most rules on paper. It won her
 the Nobel Memorial Prize in Economic Sciences, the first awarded to a
@@ -80,7 +80,7 @@ Baldwin and Clark's study of the computer industry is the most rigorous
 account of why deliberate differentiation (splitting a system into modules
 on purpose, with explicit interfaces) creates value, and why the *design
 rules at the boundary* — not the modules themselves — are what makes
-modularity pay off. It's the direct academic ancestor of `in-code.md`'s
+modularity pay off. It's the direct academic ancestor of [`in-code.md`](in-code.md)'s
 "boundaries are contracts" and "public surface is permanent integration
 cost."
 
@@ -90,13 +90,13 @@ cost."
 
 ## Interpersonal Neurobiology — integration as the definition of a healthy mind
 
-`domains-of-integration.md` is a direct, explicit re-mapping of Daniel
+[`domains-of-integration.md`](domains-of-integration.md) is a direct, explicit re-mapping of Daniel
 Siegel's work: he names nine domains in which the mind links differentiated
 aspects of experience into a coherent, healthy whole, and argues (with the
 FACES acronym this repo borrows outright) that dysfunction is almost always
 a failure of one specific kind of linkage, not a missing part. This is the
 most direct source in the repo — read this one if you want to see where
-`domains-of-integration.md` actually came from.
+[`domains-of-integration.md`](domains-of-integration.md) actually came from.
 
 - Daniel J. Siegel, *Mindsight: The New Science of Personal Transformation*
   (2010) — [Dr. Siegel's own page on Interpersonal Neurobiology](https://drdansiegel.com/interpersonal-neurobiology/)
@@ -133,9 +133,9 @@ anyone drew it on purpose or not.
 ## How to use this list
 
 Don't read it front to back. Follow the link from whichever page in this
-repo made you curious: `START-HERE.md`'s "why this is worth an hour" points
-here for the big claim; `domains-of-integration.md` points here for Siegel
-directly; `in-code.md` points here for modularity. Add to this list the
+repo made you curious: [`START-HERE.md`](START-HERE.md)'s "why this is worth an hour" points
+here for the big claim; [`domains-of-integration.md`](domains-of-integration.md) points here for Siegel
+directly; [`in-code.md`](in-code.md) points here for modularity. Add to this list the
 way you'd add to any other part of the repo — see
 [`adopting-fig.md`](adopting-fig.md) if the addition belongs in your own
 fork rather than here.

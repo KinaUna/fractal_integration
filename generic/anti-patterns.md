@@ -2,7 +2,7 @@
 
 The eight failures below are **domain-general** — any differentiated system
 can suffer them, from a workflow to a codebase to a department. Each domain
-guide (e.g. `in-code.md`) adds its own concrete examples on top of these.
+guide (e.g. [`in-code.md`](in-code.md)) adds its own concrete examples on top of these.
 
 | Name | What it looks like | The fix |
 |---|---|---|
