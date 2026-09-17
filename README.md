@@ -40,6 +40,7 @@ or out.
     - [`further-reading.md`](generic/further-reading.md)
     - [`examples/`](generic/examples/README.md)
     - [`templates/`](generic/templates/design-doc.md) — design review, postmortem, retro templates
+    - [`review-cadence.md`](generic/review-cadence.md) — which ritual fits which trigger: a task, a milestone, a whole project, a broken seam
   - `<domain>/` — future: FIG differentiated for a specific field, profession, or situation (not yet added)
 
 ## How this repo grows
@@ -70,6 +71,12 @@ handing this repo to an agent and asking it to write a domain-specific guide.
 
 This is a living, evolving document set — expect it to be revised as the
 ideas get tested against real use.
+
+**Current version: `1.1.0`.** See [`CHANGELOG.md`](CHANGELOG.md) for what
+changed, when, and why — and what a MAJOR vs. MINOR vs. PATCH bump means
+for anything you've forked from here. If you've adopted FIG elsewhere, see
+[`generic/adopting-fig.md`](generic/adopting-fig.md) for how to sync
+against a version instead of a raw commit.
 
 Licensed under [CC BY 4.0](LICENSE) — you're free to copy, adapt, and reuse this,
 including commercially, as long as you credit the source.

@@ -49,7 +49,11 @@ tells you to treat any boundary — a contract, not an accident:
    you sync, the domain guide is what you own.
 2. **Record what you pulled and when.** At the top of your local copy
    (a comment, a short `SOURCE.md`, or a line in your README), note the
-   source repo, the commit or tag you're synced to, and the date. This is
+   source repo, the **version** you're synced to (see
+   [`CHANGELOG.md`](../CHANGELOG.md) — a `vX.Y.Z` git tag, or the
+   `VERSION` file, both point at the same thing), and the date. A version
+   number is preferred over a raw commit hash: it tells you, at a glance,
+   whether the next sync is safe to pull blind or needs a look. This is
    the "memory" domain applied to your own adoption — an explicit artifact
    that says *why* your docs look the way they do, instead of leaving that
    only in someone's head.
@@ -57,11 +61,16 @@ tells you to treat any boundary — a contract, not an accident:
    something for your team, say so in one line next to it (`<!-- local:
    trimmed the templates section, we use Linear's own retro doc -->`).
    That turns an overwrite risk into a diff you can read at a glance.
-4. **Re-sync on a cadence, not never.** This repo's own docs are reviewed
-   quarterly (see the closing line of [`README.md`](./README.md)). Put your adoption on
-   the same rhythm: once a quarter, diff your local core docs against this
-   source, pull in what changed, and re-check your deviations still make
-   sense. A sync loop with no cadence is [`reflection without
+4. **Re-sync on a cadence, not never.** This repo's own core is reviewed
+   quarterly (see the closing line of [`README.md`](./README.md)) and each
+   review either cuts a new version or confirms none is needed. Put your
+   adoption on the same rhythm: once a quarter, check
+   [`CHANGELOG.md`](../CHANGELOG.md) for everything released since the
+   version you last synced. A PATCH or MINOR bump is safe to pull without
+   review. A MAJOR bump means a slug, a principle number, or the file
+   structure changed underneath you — read the entry before you pull, and
+   check it against your own cross-references and deviations. A sync loop
+   with no cadence is [`reflection without
    actuation`](./anti-patterns.md) waiting to happen.
 
 ## Doing this with an AI agent
@@ -80,19 +89,22 @@ slide deck. A reasonable prompt:
 For a codebase, the mechanical version of "keep the core, differentiate
 around it" is whatever your tooling already gives you for tracking an
 external source at a point in time — a git submodule or subtree pointed at
-this repo, or simply a pinned commit hash recorded in the file the agent
-creates. None of that is required; a dated note is enough to start. The
-point isn't the tooling, it's that the link back to source is a designed,
-visible thing — not an assumption.
+a tagged release of this repo, or simply the version from
+[`CHANGELOG.md`](../CHANGELOG.md) recorded in the file the agent creates.
+None of that is required; a dated note with a version number is enough to
+start. The point isn't the tooling, it's that the link back to source is a
+designed, visible thing — not an assumption.
 
 ## Adoption checklist
 
 - [ ] Core docs copied in, close to verbatim.
 - [ ] A domain guide written for your specific field or project.
-- [ ] Source commit/tag and date recorded somewhere visible.
+- [ ] Source version (from `CHANGELOG.md` / `VERSION` / a `vX.Y.Z` tag) and
+      date recorded somewhere visible.
 - [ ] Any deliberate local deviations noted inline.
 - [ ] A re-sync cadence set (quarterly, matching this repo's own review
-      cycle, is a reasonable default).
+      cycle, is a reasonable default) — check `CHANGELOG.md` each time and
+      treat a MAJOR entry as required reading before pulling.
 
 That's the whole pattern: differentiate deliberately, link back
 explicitly, and revisit on a schedule. It's principles 1, 2, and 6 of

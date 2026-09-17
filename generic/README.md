@@ -64,6 +64,7 @@ profession (HR, accounting, operations…) could add its own in the same shape:
 - **Incidents:** [`templates/postmortem.md`](templates/postmortem.md).
 - **Retrospectives:** [`templates/retrospective.md`](templates/retrospective.md).
 
-This document is itself a system I haven't finished integrating. I try to
-come back to it now and then and ask what my actual practice has shown to
-be true, false, or just missing.
+This document is itself a system I haven't finished integrating. I review
+it quarterly and ask what my actual practice has shown to be true, false,
+or just missing — that review is also when a new version gets cut, see
+[`CHANGELOG.md`](../CHANGELOG.md).
