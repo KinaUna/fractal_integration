@@ -30,6 +30,22 @@ Where a change was prompted by a specific lesson from using FIG elsewhere —
 a repeated seam, a recurring `other` — the entry below says so. That's the
 loop from practice back to the guidelines, closing.
 
+## [1.3.0] - 2026-09-18
+
+### Added
+
+- `landed` and `landed_date` on seam entries (`log-schema.json`,
+  `log-template.md`) — orthogonal to `status`: a seam can be
+  `status: closed` (the fix is done and verified) while still
+  `landed: branch` (not yet merged to the trunk, let alone deployed).
+  Surfaced by the first real entries logged against Kumunita: work there
+  happens on a long-lived `release` branch not yet reconciled with `main`,
+  and `status: closed` alone couldn't say whether "closed" meant "closed
+  on a branch" or "closed and live." A gap surfaced by first use — the
+  loop the versioning policy above describes, closing.
+
+Pure addition, nothing renamed or restructured — MINOR.
+
 ## [1.2.0] - 2026-09-17
 
 ### Added

@@ -73,7 +73,7 @@ handing this repo to an agent and asking it to write a domain-specific guide.
 This is a living, evolving document set — expect it to be revised as the
 ideas get tested against real use.
 
-**Current version: `1.2.0`.** See [`CHANGELOG.md`](CHANGELOG.md) for what
+**Current version: `1.3.0`.** See [`CHANGELOG.md`](CHANGELOG.md) for what
 changed, when, and why — and what a MAJOR vs. MINOR vs. PATCH bump means
 for anything you've forked from here. If you've adopted FIG elsewhere, see
 [`generic/adopting-fig.md`](generic/adopting-fig.md) for how to sync

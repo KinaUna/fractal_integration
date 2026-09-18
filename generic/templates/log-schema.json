@@ -110,6 +110,16 @@
             "closed_date": {
               "type": ["string", "null"],
               "format": "date"
+            },
+            "landed": {
+              "type": "string",
+              "enum": ["branch", "merged", "live"],
+              "description": "How far the fix has propagated past the branch it was made on. Orthogonal to `status`: a seam can be `status: closed` (the fix is done and verified) while still `landed: branch` (not yet merged to the trunk, let alone deployed). `branch`: fixed and verified in isolation. `merged`: merged into the trunk/main line. `live`: merged and confirmed running where real usage happens. Optional \u2014 omit for systems with no such distinction (trunk-based dev, no separate deploy step)."
+            },
+            "landed_date": {
+              "type": ["string", "null"],
+              "format": "date",
+              "description": "Set when `landed` last changed \u2014 e.g. the day a branch-verified fix actually reached main."
             }
           },
           "allOf": [

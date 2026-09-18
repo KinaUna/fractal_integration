@@ -46,6 +46,13 @@ seam broke."
 | `owner` | no | Matters once this spans more than one person |
 | `status` | yes | `open` \| `closed` |
 | `closed_date` | no | Set when `status` flips to `closed` |
+| `landed` | no | `branch` \| `merged` \| `live` — how far the fix has propagated past the branch it was made on. Optional; omit for systems with no such distinction. |
+| `landed_date` | no | Set when `landed` last changed |
+
+A seam can be `status: closed` (the fix is done and verified) while still
+`landed: branch` — closed doesn't mean it reached anyone. Tracking the
+branch → merged → live progression separately keeps "everything closed"
+from being read as "everything live."
 
 **The 21 domain slugs**: `consciousness`, `bilateral`, `vertical`,
 `memory`, `narrative`, `states`, `interpersonal`, `temporal`,
