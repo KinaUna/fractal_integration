@@ -55,6 +55,7 @@ accumulate, rather than looking back at problems that already did.
 
 Whether a particular review's findings warrant a change to *these
 guidelines themselves* — not just to the project they came from — is a
-separate question from when to hold the review. That's a maintainer
-concern for whoever curates their own source of FIG, not something this
-doc prescribes for everyone adopting it.
+separate question from when to hold the review. See
+[`review-ritual.md`](review-ritual.md) for that: the promotion tiers,
+the scheduled core review, and the criteria for when a logged lesson
+earns an edit here rather than staying a private note.

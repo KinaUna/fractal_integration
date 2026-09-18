@@ -173,7 +173,8 @@ design can name what it trades away before it's built.
 | 7 | [`anti-patterns.md`](anti-patterns.md)           | 5 min | how integration fails    |
 | 8 | `templates/` (skim)          | 5 min | the tools for the rituals |
 | 9 | [`review-cadence.md`](review-cadence.md)         | 5 min | which ritual fits which trigger — a task, a milestone, a whole project, a broken seam |
-| 10 | [`adopting-fig.md`](adopting-fig.md)            | 5 min | bringing this into your own project, and keeping it linked to source |
+| 10 | [`review-ritual.md`](review-ritual.md)          | 5 min | when a logged lesson earns a change to these guidelines, rather than staying a private note |
+| 11 | [`adopting-fig.md`](adopting-fig.md)            | 5 min | bringing this into your own project, and keeping it linked to source |
 
 Steps 2–4 are the first applications of the pattern to specific domains.
 Other professions can slot their own guide in the same position, same
@@ -239,8 +240,12 @@ five lines in [`templates/design-doc.md`](templates/design-doc.md) is enough. Th
 - Designing a change → [`templates/design-doc.md`](templates/design-doc.md)
 - Something broke → [`templates/postmortem.md`](templates/postmortem.md)
 - End of a cycle → [`templates/retrospective.md`](templates/retrospective.md)
+- Logging a seam or a FACES score, the thing the two templates above
+  point at → [`templates/log-template.md`](templates/log-template.md)
 - Not sure which of these a task, a milestone, or a finished project
   actually calls for → [`review-cadence.md`](review-cadence.md)
+- Deciding whether a logged lesson should change these guidelines
+  themselves → [`review-ritual.md`](review-ritual.md)
 
 ## The line I want to leave you with
 

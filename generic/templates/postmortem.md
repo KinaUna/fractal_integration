@@ -8,7 +8,8 @@ Which parts behaved as expected, working together? (Credit the linkage,
 not just the parts.)
 
 ## Which seam broke
-Name the boundary that failed — not the component.
+Name the boundary that failed — not the component. Log it
+([`log-template.md`](log-template.md)).
 
 ## Loop audit
 - What signal should have told us earlier?

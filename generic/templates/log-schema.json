@@ -1,0 +1,172 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FIG Log Entry",
+  "description": "One line of the log = one JSON object matching this schema. Two entry types share an envelope: 'seam' (a linkage that broke, noticed in a retro/postmortem/PR/or in the moment) and 'faces' (a per-cycle FACES score). See log-template.md for field-by-field notes and worked examples.",
+  "type": "object",
+  "oneOf": [
+    { "$ref": "#/$defs/seamEntry" },
+    { "$ref": "#/$defs/facesEntry" }
+  ],
+  "$defs": {
+    "domain": {
+      "type": "string",
+      "description": "One of the 21 domains of integration from ../domains-of-integration.md, or 'other' if none fit. Slugs are lowercase_with_underscores versions of the doc's domain names.",
+      "enum": [
+        "consciousness", "bilateral", "vertical", "memory", "narrative",
+        "states", "interpersonal", "temporal", "transpirational",
+        "spatial", "data", "cognition", "authority", "capacity", "artifact",
+        "value", "fit", "trust", "lifecycle", "agency", "access",
+        "other"
+      ]
+    },
+    "antiPattern": {
+      "type": "string",
+      "description": "One of the 8 named anti-patterns from ../anti-patterns.md, or 'other'. Optional — a seam can break without matching a named anti-pattern.",
+      "enum": [
+        "part_sprawl", "god_part", "distributed_fragmentation",
+        "parts_work_seams_dont", "signals_without_loops",
+        "accidental_integration", "silent_coupling",
+        "reflection_without_actuation", "other"
+      ]
+    },
+    "source": {
+      "type": "string",
+      "description": "Where this entry came from.",
+      "enum": ["retro", "postmortem", "design-doc", "ad-hoc", "other"]
+    },
+    "envelope": {
+      "type": "object",
+      "required": ["id", "date", "system", "source", "type"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "ULID (sortable by creation time, no coordination needed). Any unique, time-sortable ID works if you'd rather generate it another way."
+        },
+        "date": {
+          "type": "string",
+          "format": "date",
+          "description": "ISO 8601, e.g. 2026-09-11."
+        },
+        "system": {
+          "type": "string",
+          "description": "Open vocabulary, not a strict enum — yours to grow. A reasonable starting set: one entry per project or area of life you apply FIG to. Keep it short and consistent so you can filter/group by it later."
+        },
+        "source": { "$ref": "#/$defs/source" },
+        "source_other": {
+          "type": "string",
+          "description": "Required when source is 'other'. Free text."
+        },
+        "notes": {
+          "type": "string",
+          "description": "Free text. Always optional, always welcome."
+        }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "source": { "const": "other" } } },
+          "then": { "required": ["source_other"] }
+        }
+      ]
+    },
+    "seamEntry": {
+      "allOf": [
+        { "$ref": "#/$defs/envelope" },
+        {
+          "type": "object",
+          "required": ["type", "domain", "seam", "what_broke", "status"],
+          "properties": {
+            "type": { "const": "seam" },
+            "domain": { "$ref": "#/$defs/domain" },
+            "domain_other": {
+              "type": "string",
+              "description": "Required when domain is 'other'. If this keeps happening for the same kind of seam, it's a signal a 22nd domain wants naming — that's principle 2 (deliberate differentiation), applied to this schema."
+            },
+            "anti_pattern": { "$ref": "#/$defs/antiPattern" },
+            "anti_pattern_other": {
+              "type": "string",
+              "description": "Required when anti_pattern is 'other'."
+            },
+            "seam": {
+              "type": "string",
+              "description": "Name the boundary, not the component — e.g. 'mobile client <-> API token refresh', not 'the API'."
+            },
+            "what_broke": {
+              "type": "string",
+              "description": "What actually happened at that boundary."
+            },
+            "action": {
+              "type": "string",
+              "description": "What closes the loop. Can be filled in later, when status moves to closed."
+            },
+            "owner": {
+              "type": "string",
+              "description": "Who's responsible for the action. Matters once this spans more than one person."
+            },
+            "status": {
+              "type": "string",
+              "enum": ["open", "closed"],
+              "default": "open"
+            },
+            "closed_date": {
+              "type": ["string", "null"],
+              "format": "date"
+            }
+          },
+          "allOf": [
+            {
+              "if": { "properties": { "domain": { "const": "other" } } },
+              "then": { "required": ["domain_other"] }
+            },
+            {
+              "if": {
+                "required": ["anti_pattern"],
+                "properties": { "anti_pattern": { "const": "other" } }
+              },
+              "then": { "required": ["anti_pattern_other"] }
+            }
+          ]
+        }
+      ]
+    },
+    "facesEntry": {
+      "allOf": [
+        { "$ref": "#/$defs/envelope" },
+        {
+          "type": "object",
+          "required": ["type", "cycle", "scores", "lowest_face"],
+          "properties": {
+            "type": { "const": "faces" },
+            "cycle": {
+              "type": "string",
+              "description": "An identifier for the cycle this score covers, e.g. '2026-W37' or 'sprint 24'. Reuse the same convention per system so consecutive cycles sort/compare cleanly."
+            },
+            "scores": {
+              "type": "object",
+              "required": ["flexible", "adaptive", "coherent", "energizing", "stable"],
+              "properties": {
+                "flexible": { "type": "integer", "minimum": 1, "maximum": 5 },
+                "adaptive": { "type": "integer", "minimum": 1, "maximum": 5 },
+                "coherent": { "type": "integer", "minimum": 1, "maximum": 5 },
+                "energizing": { "type": "integer", "minimum": 1, "maximum": 5 },
+                "stable": { "type": "integer", "minimum": 1, "maximum": 5 }
+              }
+            },
+            "lowest_face": {
+              "type": "string",
+              "enum": ["flexible", "adaptive", "coherent", "energizing", "stable"]
+            },
+            "integration_move": {
+              "type": "string",
+              "description": "The one committed action for next cycle (retrospective.md's 'one integration move'). Can be filled in after scores if you fill this out live."
+            },
+            "move_status": {
+              "type": "string",
+              "enum": ["open", "closed"],
+              "description": "Lets the next cycle's loop-check be a query instead of a recollection: 'find last faces entry for this system, check move_status'."
+            }
+          }
+        }
+      ]
+    }
+  }
+}

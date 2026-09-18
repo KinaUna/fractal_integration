@@ -30,6 +30,33 @@ Where a change was prompted by a specific lesson from using FIG elsewhere —
 a repeated seam, a recurring `other` — the entry below says so. That's the
 loop from practice back to the guidelines, closing.
 
+## [1.2.0] - 2026-09-17
+
+### Added
+
+- `generic/templates/log-schema.json` and `generic/templates/log-template.md`
+  — the log format `retrospective.md` and `postmortem.md` have referenced
+  since `1.0.0` ("log each in the seam log") without it existing anywhere
+  in this repo. Previously drafted as private, maintainer-only material;
+  moved here because the schema and template hold no personal data — only
+  the entries you'd write with them do — so there was no real reason to
+  keep them out of the public, forkable core.
+- `generic/review-ritual.md` — when a lesson logged through the above
+  earns an edit to these guidelines rather than staying a private note:
+  the promotion tiers, the scheduled core review, and the promotion
+  criteria. Fills in the question `review-cadence.md` (1.1.0) explicitly
+  deferred.
+
+### Changed
+
+- `templates/retrospective.md` and `templates/postmortem.md` now link
+  "the seam log" to `log-template.md` / `log-schema.json` instead of
+  naming an artifact with no destination. Wording only, nothing renamed
+  or restructured.
+
+Pure addition plus a clarity fix — nothing renamed, nothing restructured
+— MINOR.
+
 ## [1.1.0] - 2026-09-17
 
 ### Added
